@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Imagen de fondo en toda la página */
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Contenedor principal de todo el sitio */
+.contenedor {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+/* Header con logo alineado a la izquierda */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+/* Contenido principal */
+.contenido {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenido h2 {
+    margin-bottom: 15px;
+    color: #030303;
+}
+
+.contenido p {
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.boton-video {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.boton-video:hover {
+    background-color: #1d4ed8;
+}
+
+/* Footer con datos de identificación */
+footer {
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-top: 1px solid #cbd5e1;
+    font-size: 14px;
+    color: #334155;
+    line-height: 1.6;
+}
